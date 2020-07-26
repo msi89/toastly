@@ -35,3 +35,10 @@ toastly.show(`Send us <b>an email</b> to get support`, {
     color: "#000",
 });
 ```
+
+##### Available methods
+* sucess
+* info
+* error
+* show
+* warning
