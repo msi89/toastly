@@ -11,7 +11,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@msic89/toastly": "^1.0.0",
+    "@msic89/toastly": "latest",
     "parcel-bundler": "^1.12.4"
   }
 }
