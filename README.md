@@ -12,7 +12,7 @@ import Toastly from "@msic89/toastly"
 const toastly = new Toastly();
 toastly.error("Network error")
 ```
-* Advanced options
+##### Advanced options
 ```javascript
 import Toastly from "@msic89/toastly"
 
@@ -23,7 +23,7 @@ const toastly = new Toastly();
 })
 ```
 
-* Custom toast
+##### Custom toast
 ```javascript
 import Toastly from "@msic89/toastly"
 
