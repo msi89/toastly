@@ -1,6 +1,6 @@
 # toastly
 
-* Installation
+##### Installation
 ```bash 
 npm install @msic89/toastly
 ```
