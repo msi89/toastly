@@ -10,14 +10,14 @@ npm install @msic89/toastly
 import Toastly from "@msic89/toastly"
 
 const toastly = new Toastly();
+
 toastly.error("Network error")
 ```
 ##### Advanced options
 ```javascript
-import Toastly from "@msic89/toastly"
-
 const toastly = new Toastly();
-   toastly.success("Hello world", {
+
+toastly.success("Hello world", {
     dismissible: false,
     duration: 2000,
 })
@@ -25,9 +25,7 @@ const toastly = new Toastly();
 
 ##### Custom toast
 ```javascript
-import Toastly from "@msic89/toastly"
-
-const toastly = new Toastly
+const toastly = new Toastly()
 
 toastly.show(`Send us <b>an email</b> to get support`, {
     position: "top-center",
