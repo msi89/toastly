@@ -5,7 +5,7 @@
 npm install @msic89/toastly
 ```
 
-* How use basic
+##### How use basic
 ```javascript
 import Toastly from "@msic89/toastly"
 
@@ -17,9 +17,9 @@ toastly.error("Network error")
 import Toastly from "@msic89/toastly"
 
 const toastly = new Toastly();
-toastly.success("Hello world", {
-dismissible: false,
-duration: 2000,
+   toastly.success("Hello world", {
+    dismissible: false,
+    duration: 2000,
 })
 ```
 
